@@ -1,5 +1,5 @@
 import 'react-toastify/dist/ReactToastify.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,7 +13,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen">
         <Navbar />
@@ -33,7 +33,7 @@ function App() {
         autoClose={3000}
         theme="colored"
       />
-    </Router>
+    </BrowserRouter>
   );
 }
 
