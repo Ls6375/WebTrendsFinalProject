@@ -1,5 +1,5 @@
-// Student Name: Lakhvinder Singh
-// Student ID: 8959531
+// Student Name: Divyanginiben Bhagubhai Patel
+// Student ID: 8961573
 import { motion } from 'framer-motion';
 import { FaHandsHelping, FaDollarSign, FaLightbulb, FaUsers } from 'react-icons/fa';
 import { useState } from 'react';

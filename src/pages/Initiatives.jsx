@@ -1,3 +1,5 @@
+// Student Name: Lakhvinder Singh
+// Student ID: 8959531
 import { motion } from 'framer-motion';
 import { FaTree, FaWater, FaSeedling, FaSun } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
