@@ -1,3 +1,5 @@
+// Student Name: Divyanginiben Bhagubhai Patel
+// Student ID: 8961573
 import { motion, AnimatePresence } from 'framer-motion';
 import { IoClose } from 'react-icons/io5';
 

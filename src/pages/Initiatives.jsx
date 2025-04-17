@@ -1,5 +1,5 @@
-// Student Name: Lakhvinder Singh
-// Student ID: 8959531
+// Student Name: Sai praneeth kumar kandepu
+// Student ID: 8964643
 import { motion } from 'framer-motion';
 import { FaTree, FaWater, FaSeedling, FaSun } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
