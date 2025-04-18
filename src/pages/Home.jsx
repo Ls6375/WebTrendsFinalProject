@@ -94,7 +94,7 @@ function Home() {
                 >
                   <Link
                     to="/get-involved"
-                    className="bg-white text-green-600 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition duration-300 inline-block"
+                    className="bg-white text-green-800 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition duration-300 inline-block"
                   >
                     Join Us Today
                   </Link>
@@ -137,8 +137,8 @@ function Home() {
             transition={{ delay: 0.2 }}
             className="bg-green-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
           >
-            <FaTree className="text-5xl text-green-600 mx-auto mb-4" />
-            <h3 className="text-4xl font-bold text-green-600 mb-2">1M+</h3>
+            <FaTree className="text-5xl text-green-800 mx-auto mb-4" />
+            <h3 className="text-4xl font-bold text-green-800 mb-2">1M+</h3>
             <p className="text-gray-600">Trees Planted</p>
           </motion.div>
           <motion.div
@@ -147,8 +147,8 @@ function Home() {
             transition={{ delay: 0.4 }}
             className="bg-green-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
           >
-            <FaUsers className="text-5xl text-green-600 mx-auto mb-4" />
-            <h3 className="text-4xl font-bold text-green-600 mb-2">50K+</h3>
+            <FaUsers className="text-5xl text-green-800 mx-auto mb-4" />
+            <h3 className="text-4xl font-bold text-green-800 mb-2">50K+</h3>
             <p className="text-gray-600">Volunteers Worldwide</p>
           </motion.div>
           <motion.div
@@ -157,8 +157,8 @@ function Home() {
             transition={{ delay: 0.6 }}
             className="bg-green-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
           >
-            <FaProjectDiagram className="text-5xl text-green-600 mx-auto mb-4" />
-            <h3 className="text-4xl font-bold text-green-600 mb-2">100+</h3>
+            <FaProjectDiagram className="text-5xl text-green-800 mx-auto mb-4" />
+            <h3 className="text-4xl font-bold text-green-800 mb-2">100+</h3>
             <p className="text-gray-600">Conservation Projects</p>
           </motion.div>
         </div>
@@ -181,7 +181,7 @@ function Home() {
               transition={{ delay: 0.2 }}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
             >
-              <FaLeaf className="text-4xl text-green-600 mb-4" />
+              <FaLeaf className="text-4xl text-green-800 mb-4" />
               <h3 className="text-xl font-bold mb-4">Sustainable Practices</h3>
               <p className="text-gray-600">
                 Implementing eco-friendly solutions that balance human needs
@@ -194,7 +194,7 @@ function Home() {
               transition={{ delay: 0.4 }}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
             >
-              <FaHandshake className="text-4xl text-green-600 mb-4" />
+              <FaHandshake className="text-4xl text-green-800 mb-4" />
               <h3 className="text-xl font-bold mb-4">Community Engagement</h3>
               <p className="text-gray-600">
                 Working closely with local communities to create lasting
@@ -207,7 +207,7 @@ function Home() {
               transition={{ delay: 0.6 }}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
             >
-              <FaRecycle className="text-4xl text-green-600 mb-4" />
+              <FaRecycle className="text-4xl text-green-800 mb-4" />
               <h3 className="text-xl font-bold mb-4">Innovation</h3>
               <p className="text-gray-600">
                 Leveraging cutting-edge technology and research for better
@@ -219,7 +219,7 @@ function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-green-600 to-green-500 text-white">
+      <section className="py-16 bg-gradient-to-r from-green-800 to-green-500 text-white">
         <div className="container mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -237,7 +237,7 @@ function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleGetInvolved}
-              className="bg-white text-green-600 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition duration-300"
+              className="bg-white text-green-800 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition duration-300"
             >
               Join Us Today
             </motion.button>
@@ -260,7 +260,7 @@ function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Mission</h2>
-            <div className="w-24 h-1 bg-green-600 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-green-800 mx-auto mb-8"></div>
             <p className="text-xl max-w-3xl mx-auto text-gray-600 leading-relaxed">
               We are dedicated to protecting Earth&apos;s biodiversity through
               conservation, education, and community engagement. Together, we can
@@ -275,7 +275,7 @@ function Home() {
               transition={{ delay: 1.2 }}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
             >
-              <div className="text-green-600 text-4xl mb-4">
+              <div className="text-green-800 text-4xl mb-4">
                 <FaTree />
               </div>
               <h3 className="text-xl font-bold mb-4">Conservation</h3>
@@ -291,7 +291,7 @@ function Home() {
               transition={{ delay: 1.4 }}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
             >
-              <div className="text-green-600 text-4xl mb-4">
+              <div className="text-green-800 text-4xl mb-4">
                 <FaUsers />
               </div>
               <h3 className="text-xl font-bold mb-4">Education</h3>
@@ -307,7 +307,7 @@ function Home() {
               transition={{ delay: 1.6 }}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300"
             >
-              <div className="text-green-600 text-4xl mb-4">
+              <div className="text-green-800 text-4xl mb-4">
                 <FaHandshake />
               </div>
               <h3 className="text-xl font-bold mb-4">Community</h3>

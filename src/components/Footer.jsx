@@ -24,7 +24,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-green-600 text-white">
+    <footer className="bg-green-800 text-white">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -109,7 +109,7 @@ function Footer() {
               />
               <button
                 type="submit"
-                className="w-full bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded-lg transition duration-300"
+                className="w-full bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300"
               >
                 Subscribe
               </button>

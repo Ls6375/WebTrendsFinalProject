@@ -131,7 +131,7 @@ function GetInvolved() {
             transition={{ delay: 0.2 }}
             className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300"
           >
-            <FaHandsHelping className="text-4xl text-green-600 mb-4" />
+            <FaHandsHelping className="text-4xl text-green-800 mb-4" />
             <h2 className="text-2xl font-bold mb-4">Volunteer</h2>
             <p className="text-gray-600 mb-6">
               Join our network of dedicated volunteers and participate in local
@@ -145,7 +145,7 @@ function GetInvolved() {
             </ul>
             <button 
               onClick={() => setIsVolunteerModalOpen(true)}
-              className="w-full bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
+              className="w-full bg-green-800 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
             >
               Sign Up to Volunteer
             </button>
@@ -157,7 +157,7 @@ function GetInvolved() {
             transition={{ delay: 0.4 }}
             className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300"
           >
-            <FaDollarSign className="text-4xl text-green-600 mb-4" />
+            <FaDollarSign className="text-4xl text-green-800 mb-4" />
             <h2 className="text-2xl font-bold mb-4">Donate</h2>
             <p className="text-gray-600 mb-6">
               Support our initiatives through financial contributions. Your donation
@@ -171,7 +171,7 @@ function GetInvolved() {
                 }}
                 className={`px-4 py-2 rounded-lg transition duration-300 ${
                   selectedAmount === 25 
-                    ? 'bg-green-600 text-white' 
+                    ? 'bg-green-800 text-white' 
                     : 'bg-green-50 text-green-800 hover:bg-green-100'
                 }`}
               >
@@ -184,7 +184,7 @@ function GetInvolved() {
                 }}
                 className={`px-4 py-2 rounded-lg transition duration-300 ${
                   selectedAmount === 50 
-                    ? 'bg-green-600 text-white' 
+                    ? 'bg-green-800 text-white' 
                     : 'bg-green-50 text-green-800 hover:bg-green-100'
                 }`}
               >
@@ -197,7 +197,7 @@ function GetInvolved() {
                 }}
                 className={`px-4 py-2 rounded-lg transition duration-300 ${
                   selectedAmount === 100 
-                    ? 'bg-green-600 text-white' 
+                    ? 'bg-green-800 text-white' 
                     : 'bg-green-50 text-green-800 hover:bg-green-100'
                 }`}
               >
@@ -207,7 +207,7 @@ function GetInvolved() {
                 onClick={() => setIsDonateModalOpen(true)}
                 className={`px-4 py-2 rounded-lg transition duration-300 ${
                   selectedAmount === 'custom' 
-                    ? 'bg-green-600 text-white' 
+                    ? 'bg-green-800 text-white' 
                     : 'bg-green-50 text-green-800 hover:bg-green-100'
                 }`}
               >
@@ -216,7 +216,7 @@ function GetInvolved() {
             </div>
             <button 
               onClick={() => setIsDonateModalOpen(true)}
-              className="w-full bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
+              className="w-full bg-green-800 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
             >
               Donate Now
             </button>
@@ -230,7 +230,7 @@ function GetInvolved() {
             transition={{ delay: 0.6 }}
             className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300"
           >
-            <FaLightbulb className="text-4xl text-green-600 mb-4" />
+            <FaLightbulb className="text-4xl text-green-800 mb-4" />
             <h2 className="text-2xl font-bold mb-4">Start a Project</h2>
             <p className="text-gray-600 mb-6">
               Have an idea for an environmental initiative? We provide resources,
@@ -238,7 +238,7 @@ function GetInvolved() {
             </p>
             <button 
               onClick={() => setIsProjectModalOpen(true)}
-              className="w-full bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
+              className="w-full bg-green-800 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
             >
               Submit Your Idea
             </button>
@@ -250,7 +250,7 @@ function GetInvolved() {
             transition={{ delay: 0.8 }}
             className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300"
           >
-            <FaUsers className="text-4xl text-green-600 mb-4" />
+            <FaUsers className="text-4xl text-green-800 mb-4" />
             <h2 className="text-2xl font-bold mb-4">Join Our Network</h2>
             <p className="text-gray-600 mb-6">
               Connect with like-minded individuals and organizations. Share ideas,
@@ -258,7 +258,7 @@ function GetInvolved() {
             </p>
             <button 
               onClick={() => setIsNetworkModalOpen(true)}
-              className="w-full bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
+              className="w-full bg-green-800 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
             >
               Join Network
             </button>
@@ -330,7 +330,7 @@ function GetInvolved() {
           </div>
           <button
             type="submit"
-            className="w-full bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            className="w-full bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
           >
             Submit
           </button>
@@ -390,7 +390,7 @@ function GetInvolved() {
           </div>
           <button
             type="submit"
-            className="w-full bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            className="w-full bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
           >
             Donate
           </button>
@@ -461,7 +461,7 @@ function GetInvolved() {
           </div>
           <button
             type="submit"
-            className="w-full bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            className="w-full bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
           >
             Submit Project
           </button>
@@ -532,7 +532,7 @@ function GetInvolved() {
           </div>
           <button
             type="submit"
-            className="w-full bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            className="w-full bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
           >
             Join Network
           </button>

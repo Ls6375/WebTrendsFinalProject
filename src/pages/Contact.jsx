@@ -138,7 +138,7 @@ function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
+                className="w-full bg-green-800 text-white px-6 py-3 rounded-full hover:bg-green-700 transition duration-300"
               >
                 Send Message
               </button>
@@ -155,7 +155,7 @@ function Contact() {
               <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <FaMapMarkerAlt className="text-green-600 text-xl mr-4" />
+                  <FaMapMarkerAlt className="text-green-800 text-xl mr-4" />
                   <div>
                     <h3 className="font-semibold">Address</h3>
                     <p>
@@ -166,14 +166,14 @@ function Contact() {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <FaEnvelope className="text-green-600 text-xl mr-4" />
+                  <FaEnvelope className="text-green-800 text-xl mr-4" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
                     <p>info@ecoconserve.org</p>
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <FaPhone className="text-green-600 text-xl mr-4" />
+                  <FaPhone className="text-green-800 text-xl mr-4" />
                   <div>
                     <h3 className="font-semibold">Phone</h3>
                     <p>(555) 123-4567</p>
@@ -190,7 +190,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Visit our Facebook page"
-                  className="flex items-center justify-center bg-green-50 text-green-600 p-4 rounded-lg hover:bg-green-100 transition duration-300"
+                  className="flex items-center justify-center bg-green-50 text-green-800 p-4 rounded-lg hover:bg-green-100 transition duration-300"
                 >
                   <FaFacebook className="text-2xl mr-2" />
                   Facebook
@@ -200,7 +200,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Visit our Twitter profile"
-                  className="flex items-center justify-center bg-green-50 text-green-600 p-4 rounded-lg hover:bg-green-100 transition duration-300"
+                  className="flex items-center justify-center bg-green-50 text-green-800 p-4 rounded-lg hover:bg-green-100 transition duration-300"
                 >
                   <FaTwitter className="text-2xl mr-2" />
                   Twitter
@@ -210,7 +210,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Visit our Instagram profile"
-                  className="flex items-center justify-center bg-green-50 text-green-600 p-4 rounded-lg hover:bg-green-100 transition duration-300"
+                  className="flex items-center justify-center bg-green-50 text-green-800 p-4 rounded-lg hover:bg-green-100 transition duration-300"
                 >
                   <FaInstagram className="text-2xl mr-2" />
                   Instagram
@@ -220,7 +220,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Visit our LinkedIn profile"
-                  className="flex items-center justify-center bg-green-50 text-green-600 p-4 rounded-lg hover:bg-green-100 transition duration-300"
+                  className="flex items-center justify-center bg-green-50 text-green-800 p-4 rounded-lg hover:bg-green-100 transition duration-300"
                 >
                   <FaLinkedin className="text-2xl mr-2" />
                   LinkedIn

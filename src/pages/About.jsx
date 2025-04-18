@@ -29,7 +29,7 @@ function About() {
             transition={{ delay: 0.2 }}
             className="bg-white rounded-xl shadow-lg p-8 text-center"
           >
-            <FaLeaf className="text-5xl text-eco-green-600 mx-auto mb-4" />
+            <FaLeaf className="text-5xl text-eco-green-800 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
             <p className="text-gray-600">
               {`To protect and restore Earth's biodiversity through innovative
@@ -43,7 +43,7 @@ function About() {
             transition={{ delay: 0.4 }}
             className="bg-white rounded-xl shadow-lg p-8 text-center"
           >
-            <FaUsers className="text-5xl text-eco-green-600 mx-auto mb-4" />
+            <FaUsers className="text-5xl text-eco-green-800 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Team</h3>
             <p className="text-gray-600">
               A dedicated group of scientists, conservationists, and volunteers
@@ -57,7 +57,7 @@ function About() {
             transition={{ delay: 0.6 }}
             className="bg-white rounded-xl shadow-lg p-8 text-center"
           >
-            <FaGlobe className="text-5xl text-eco-green-600 mx-auto mb-4" />
+            <FaGlobe className="text-5xl text-eco-green-800 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Impact</h3>
             <p className="text-gray-600">
               Over 100 successful conservation projects across 30 countries,
@@ -70,7 +70,7 @@ function About() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className="bg-eco-green-600 text-white rounded-xl p-12 text-center"
+          className="bg-eco-green-800 text-white rounded-xl p-12 text-center"
         >
           <h2 className="text-3xl font-bold mb-6">Join Our Mission</h2>
           <p className="text-xl mb-8">
@@ -80,7 +80,7 @@ function About() {
           </p>
           <Link
             to="/get-involved"
-            className="bg-white text-green-600 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition duration-300 inline-block"
+            className="bg-white text-green-800 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition duration-300 inline-block"
           >
             Get Involved Today
           </Link>

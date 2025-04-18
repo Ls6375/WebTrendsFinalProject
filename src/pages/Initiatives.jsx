@@ -7,25 +7,25 @@ import { Link } from 'react-router-dom';
 function Initiatives() {
   const initiatives = [
     {
-      icon: <FaTree className="text-4xl mb-4 text-eco-green-600" />,
+      icon: <FaTree className="text-4xl mb-4 text-eco-green-800" />,
       title: "Forest Conservation",
       description: "Protecting and restoring forest ecosystems worldwide through sustainable management practices and community involvement.",
       stats: "10,000+ acres protected",
     },
     {
-      icon: <FaWater className="text-4xl mb-4 text-eco-green-600" />,
+      icon: <FaWater className="text-4xl mb-4 text-eco-green-800" />,
       title: "Ocean Cleanup",
       description: "Removing plastic waste from our oceans and implementing measures to prevent marine pollution.",
       stats: "500 tons of waste removed",
     },
     {
-      icon: <FaSeedling className="text-4xl mb-4 text-eco-green-600" />,
+      icon: <FaSeedling className="text-4xl mb-4 text-eco-green-800" />,
       title: "Sustainable Agriculture",
       description: "Promoting eco-friendly farming practices and supporting local farmers in adopting sustainable methods.",
       stats: "100+ communities supported",
     },
     {
-      icon: <FaSun className="text-4xl mb-4 text-eco-green-600" />,
+      icon: <FaSun className="text-4xl mb-4 text-eco-green-800" />,
       title: "Renewable Energy",
       description: "Advancing clean energy solutions and helping communities transition to renewable power sources.",
       stats: "25 solar projects completed",
@@ -73,7 +73,7 @@ function Initiatives() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className="bg-eco-green-600 text-white rounded-xl p-12 text-center"
+          className="bg-eco-green-800 text-white rounded-xl p-12 text-center"
         >
           <h2 className="text-3xl font-bold mb-6">Start Your Own Initiative</h2>
           <p className="text-xl mb-8">
@@ -81,7 +81,7 @@ function Initiatives() {
           </p>
           <Link
             to="/get-involved"
-            className="bg-white text-eco-green-600 px-8 py-3 rounded-full font-bold hover:bg-eco-green-50 transition duration-300"
+            className="bg-white text-eco-green-800 px-8 py-3 rounded-full font-bold hover:bg-eco-green-50 transition duration-300"
           >
             Propose a Project
           </Link>

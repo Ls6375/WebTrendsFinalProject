@@ -8,7 +8,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-green-600 text-white p-4">
+    <nav className="bg-green-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand with Leaf Icon */}
         <Link to="/" className="flex items-center text-2xl font-bold">
